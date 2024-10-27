@@ -5,6 +5,7 @@ using UnityEngine;
 public class Killzone : MonoBehaviour
 {
     public GameObject canvas;
+    public GameObject killText;
 
     private void Start()
     {
@@ -16,6 +17,8 @@ public class Killzone : MonoBehaviour
         if (collision.transform.gameObject.CompareTag("Player"))
         {
             canvas.SetActive(true);
+            killText.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 }
