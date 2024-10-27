@@ -18,7 +18,7 @@ public class Killzone : MonoBehaviour
         {
             canvas.SetActive(true);
             killText.SetActive(true);
+            Time.timeScale = 0;
         }
-        Destroy(transform.parent.gameObject);
     }
 }

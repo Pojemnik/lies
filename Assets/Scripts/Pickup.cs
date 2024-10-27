@@ -25,7 +25,9 @@ public class Pickup : MonoBehaviour
             {
                 canvas.SetActive(true);
                 winText.SetActive(true);
+                Time.timeScale = 0;
             }
+            Destroy(transform.parent.gameObject);
         }
     }
 }
