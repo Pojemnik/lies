@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5582e4676ee716147879b86465df88f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 40
+  m_JumpForce: 400
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
   m_AirControl: 1
@@ -81,7 +81,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 3175967425557996838}
-  speed: 10
+  speed: 500
 --- !u!61 &4280216636642327902
 BoxCollider2D:
   m_ObjectHideFlags: 0
